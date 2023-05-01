@@ -1,0 +1,72 @@
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ }
+
+ .contenedor{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+ }
+
+.barra-lateral{
+    margin: 0;
+    padding: 0;
+    background: #6A9BD9;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    border-right: solid;
+    display: block;
+}
+
+
+.avatar-home{  
+    width: 100px;
+    height: 100px;
+    border-radius: 20%;
+    margin: 10% 25%;
+    top: 10px;
+    left: calc(50% - 50px);
+}
+
+.modulo-1{
+    margin: 0;
+    padding-right: 5%;
+    height: 100vh;
+    width: 100%;
+    background: #80D9B5;
+}
+
+.modulo-1 h1{
+    color: white;
+    text-align: right;
+
+    
+}
+
+.iconos li:hover{
+    color: black;
+}
+
+.iconos li{
+    list-style: none;
+    color: #FAE3B8;
+    margin-bottom: 20px;
+
+}
+
+.iconos p{
+    display: inline;
+    font-size: 14px;
+}
+
+/*  paleta de colores:
+    #6A9BD9  azul
+    #FAE3B8  crema
+    #CD75D9  rosa
+    #80D9B5  verde  
+ */
+ 
