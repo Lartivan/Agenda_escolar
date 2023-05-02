@@ -18,9 +18,7 @@
             <ol class="iconos">
                 <li>
                     <img src="/imagenes/usuario.png" alt="sasa">
-                    <a href="docentes-html">
-                        <p>Gestión Docentes</p>
-                    </a>
+                    <a href="index.html"><p>Gestión Docentes</p></a>
                 </li>
                 <li>
                     <img src="/imagenes/usuario.png" alt="">
@@ -36,13 +34,21 @@
                 </li>
             </ol>
         </div>
-        <div class="info-user">
-            <h1>Usuario De la escuela</h1>
-        </div>
         <div class="modulo-1">
+            <div class="info-user">
+                <h1>Usuario De la escuela</h1>
+            </div>
+            <div class="vista-docente">
+                <p>Gestion de Docentes</p>
+                <select name="Roles" id="">
+                    <option value="2">Alta</option>
+                    <option value="3">Editar</option>
+                    <option value="4">Eliminar</option>
+                    <option value="5">Otros</option >
+                </select>
+                <thead></thead>
+            </div>
         </div>
-
-
     </div>
     <!--   <footer>
         <h3>Ministerio de educación.</h3>
